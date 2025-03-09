@@ -1,0 +1,32 @@
+$primary: #211c84;
+$secondary: #ec7fa9;
+$light: #fbfbfb;
+$dark: #574964;
+
+$body-bg: $light;
+
+// $font-family-sans-serif: 'Montserrat', sans-serif;
+
+$navbar-light-color: #211c84c3;
+
+$navbar-light-hover-color: $primary;
+
+$navbar-light-active-color: $primary;
+
+$navbar-light-disabled-color: #211c84c3;
+
+$navbar-brand-color: $primary;
+
+$navbar-brand-hover-color: $primary;
+
+$navbar-toggler-icon-bar-bg: $light;
+
+$navbar-toggler-icon-bar-border-color: $dark;
+
+$navbar-toggler-bg: $dark;
+
+$navbar-toggler-border-color: $light;
+
+$jumbotron-bg: $primary;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

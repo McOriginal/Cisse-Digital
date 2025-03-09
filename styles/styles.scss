@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  margin-left: 40%;
+}
+
+#carouselHeader {
+  height: 100%;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.produit {
+  background: url('../images/emploiye.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 4%;
+}
+
+.p_img_items_container {
+  margin-bottom: 50%;
+  background: #000;
+}
+
+.p_img_items_container img {
+  width: 150px;
+  object-fit: cover;
+  margin: 10px 20px;
+}
+
+.p_service_container {
+  margin-top: 5%;
+}
+
+.p_service_container .card {
+  margin: 10px auto;
+  // width: 400px;
+  min-height: 250px;
+  transition: all ease-in 0.3s;
+}
+
+.p_service_container .card:hover {
+  background: #211c840d;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.p_service_container .card i {
+  font-size: 40px;
+  margin: 20px auto;
+  color: #211c84;
+}
+
+.p_container_proj {
+  height: 50vh;
+  background: linear-gradient(to top, #211c84, #211c840d),
+    url('../images/groupe-afro-americains.jpg') no-repeat center center;
+}
+
+.p_container_proj .container {
+  box-shadow: 3px 0px 30px black;
+  margin-top: 15%;
+}
+
+.spacer {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(
+    25%
+  ); /* Déplace de 25% pour afficher le groupe suivant */
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(
+    -25%
+  ); /* Déplace de -25% pour afficher le groupe précédent */
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.p_confiance {
+  margin: 20% auto;
+}
+
+@media screen and (max-width: 768px) {
+  .p_img_items_container img {
+    width: 80px;
+  }
+  .p_service_container .card {
+    width: 250px;
+    margin: 30px auto;
+  }
+}
+
+// ---------------- About Page---------------------------
+.p_container_about_header {
+  height: 50vh;
+  padding-top: 10%;
+  background: linear-gradient(to top, #211c84, #211c840d),
+    url('../images/groupe-afro-americains.jpg') no-repeat center center;
+}
+
+.p_container_about_header h2 {
+  font-size: 50px;
+}
+
+.p_card .card {
+  padding: 10px 5px;
+}
+
+.p_card .card i {
+  font-size: 40px;
+  margin: 20px auto;
+  color: #211c84;
+}
+
+.p_domaine i {
+  font-size: 40px;
+  color: #211c84;
+}
+
+// ------------------------------------
+// ------------Services ------------------------
+.p_container_service_header {
+  height: 40vh;
+  padding-top: 10%;
+  background: linear-gradient(to top, #211c84, #211c840d),
+    url('https://img.freepik.com/photos-gratuite/codeur_1098-18084.jpg?t=st=1741425643~exp=1741429243~hmac=18dd56a20855686208184fcc53804eea815106452de47a9b56ef986c2926d350&w=1800')
+      no-repeat center center;
+}
+.p_site_header {
+  height: 40vh;
+  padding-top: 10%;
+  background: url(https://img.freepik.com/photos-gratuite/capture-verticale-jeune-femme-portant-masque-facial-sous-sa-machoire_181624-45845.jpg?ga=GA1.1.305173322.1728752977&semt=ais_hybrid)
+    no-repeat center center;
+  background-size: cover;
+}
+.p_mobile_header {
+  height: 40vh;
+  padding-top: 10%;
+  background: url(https://img.freepik.com/photos-gratuite/representations-experience-utilisateur-design-interface_23-2150104494.jpg?ga=GA1.1.305173322.1728752977&semt=ais_hybrid)
+    no-repeat center center;
+  background-size: cover;
+}
+
+.p_container_service_header h2 {
+  font-size: 50px;
+}
+
+// ------------------------------------
+// ------------------------------------
+// ------------------------------------
+
+.p_box {
+  height: 70vh;
+  padding: 30% 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(https://img.freepik.com/photos-gratuite/businesspeople-ayant-bon-moment-reunion_1098-1786.jpg?ga=GA1.1.305173322.1728752977&semt=ais_hybrid)
+      no-repeat center center;
+  background-size: cover;
+}
+
+.p_box h2 {
+  margin: 20px auto;
+  font-size: 40px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+// -----------------------------------------------
+// -------------- Projets --------------------------------
+// -----------------------------------------------
+
+.p_projet_header {
+  height: 70vh;
+  padding: 30% 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(https://img.freepik.com/photos-gratuite/groupe-jeunes-creatifs-asiatiques-vetus-vetements-decontractes-intelligents-discutant-brainstorming-commercial_7861-3066.jpg?ga=GA1.1.305173322.1728752977&semt=ais_hybrid)
+      no-repeat center center;
+  background-size: cover;
+}
+// -----------------------------------------------
+// -------------- Contact --------------------------------
+// -----------------------------------------------
+
+.p_contact_header {
+  height: 70vh;
+  padding: 30% 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(https://img.freepik.com/photos-gratuite/hommes-affaires-africains-se-serrant-main_1303-18516.jpg?ga=GA1.1.305173322.1728752977&semt=ais_hybrid)
+      no-repeat center center;
+  background-size: cover;
+}
