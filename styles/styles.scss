@@ -220,3 +220,20 @@
       no-repeat center center;
   background-size: cover;
 }
+
+// ----------------------------------------------
+// -------------- Animation --------------------------------
+
+.show_animation {
+  opacity: 0;
+  transform: translateY(250px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.show_animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+// ----------------------------------------------
+// ----------------------------------------------
